@@ -1,6 +1,6 @@
 <?php include "header.php";?>
 
-<i class="fas fa-columns"></i>&nbsp;&Uuml;bersicht
+<p class="h1"><i class="fas fa-columns"></i>&nbsp;&Uuml;bersicht</p>
 
 
 <div class="card">
