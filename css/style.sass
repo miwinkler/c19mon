@@ -1,0 +1,61 @@
+$backgroundOverall: black
+
+#containerSite
+    min-width: 345px
+
+html
+    min-width: 345px
+
+// Smallest
+@media (max-width: 390px)
+    html
+        height: 100%
+
+    #containerSite
+        height: 100%
+        background-color: #d4f1e2
+
+    .card
+        margin-top: 10px
+        margin-bottom: 20px
+
+    #containerContent
+        min-height: 100vh
+
+// Small Portrait
+@media (min-width: 391px)
+
+    html
+        height: 100%
+
+    #containerSite
+        height: 100%
+        background-color: grey
+
+    #containerContent
+        min-height: 100vh
+
+    .card
+        margin-top: 10px
+        margin-bottom: 20px
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)
+    #containerSite
+        background-color: red
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+    #containerSite
+
+        background-color: blue
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+    #containerSite
+        background-color: green
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+    #containerSite
+        background-color: yellow
