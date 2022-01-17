@@ -22,13 +22,37 @@
     <!-- Icons Font Awesome -->
     <script src="https://kit.fontawesome.com/2be045b226.js" crossorigin="anonymous"></script>
 
-    
+    <!-- Pull Down Refresh -->
+    <script src="pull-to-reload.js"></script>
+    <script>
+            var ptr;
+
+            document.addEventListener("DOMContentLoaded", function() {
+                ptr = new PullToReload({ 
+                    'callback-loading': function(){
+                        setTimeout(function(){
+                            ptr.loadingEnd();
+                        }, 3000);
+                    }
+                });
+                
+            });
+
+        </script>
+
+
 
     <title>C19 Monitoring</title>
+
+
 </head>
 
 
 <body>
+<div id="ptr">
+
+</div>
+
     <div class="container-fluid" id="containerSite">
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
