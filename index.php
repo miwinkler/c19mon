@@ -5,7 +5,7 @@
 
 <div class="card">
   <div class="card-header"><i class="fas fa-thermometer-half"></i>Temperatur letzte letzte 24 Stunden</div>
-  <div class="card-body">Chart</div>
+  <div class="card-body">ssssChart</div>
   <div class="card-footer"></div>
 </div>
 
