@@ -1,0 +1,6 @@
+<?php 
+$certificateKeyFilePath = 'nameOfyourCert.pem';
+
+// String from "Connect App" in mongodb
+$mongodbString='mongodb+srv://your.cluster.dom/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority&tlsCertificateKeyFile='.$certificateKeyFilePath;
+?>
