@@ -237,7 +237,8 @@
 
             chart.draw(data, options);
             }
-    </script></div>
+    </script>
+    </div>
   <div class="card-footer"></div>
 </div>
 
