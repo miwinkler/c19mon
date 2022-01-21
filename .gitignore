@@ -1,3 +1,4 @@
 *.pem
 .git
 config.php
+mongocert.pem

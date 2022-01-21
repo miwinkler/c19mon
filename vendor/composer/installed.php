@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b2ce512d0f2af185cbce8aea41c7c52b8d6b102e',
+        'reference' => 'ecccea3cb5750e2a3f29261d0f0bf0d7d5024eb7',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b2ce512d0f2af185cbce8aea41c7c52b8d6b102e',
+            'reference' => 'ecccea3cb5750e2a3f29261d0f0bf0d7d5024eb7',
             'dev_requirement' => false,
         ),
         'jean85/pretty-package-versions' => array(

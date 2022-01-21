@@ -49,7 +49,3 @@
         </div>
       </nav>
       <div class="container-fluid" id="containerContent">
-            
-<?php 
- include "mongoConnect.php"; 
-?>
