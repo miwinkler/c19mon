@@ -4,7 +4,7 @@
 
 <div class="card">
   <div class="card-header">letzte 3 Stunden</div>
-  <div class="card-body">Content</div>
+  <div class="card-body">Content123foo</div>
   <div class="card-footer"></div>
 </div>
 
