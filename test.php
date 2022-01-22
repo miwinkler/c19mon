@@ -4,7 +4,7 @@
 $client = new MongoDB\Client("mongodb+srv://raspuserdusgd621v21f127921g721fv721:JBASzu762biu2bkjabscabpv2i2vvashdbasdknasuiIOASUodnwuuiwbdA872v28v27v27v27f2cluster0.7k4q4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 
 $customers = $client->selectCollection('sample_analytics','customers');
-$document = $customers->fineOne(['username' => 'wesley20']);
+$document = $customers->findOne(['username' => 'wesley20']);
 
 var_dump($document);
 ?>
