@@ -44,6 +44,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="humidity.php"><i class="fas fa-cloud-rain"></i>&nbsp;Luftfeuchtigkeit</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="onlineStatusHistory.php"><i class="fas fa-network-wired"></i>&nbsp;Luftfeuchtigkeit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="powerStatusHistory.php"><i class="fas fa-plug"></i></i>&nbsp;Strom</a>
+              </li>
             </ul>
           </div>
         </div>
